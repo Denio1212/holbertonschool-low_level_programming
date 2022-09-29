@@ -2,7 +2,7 @@
 
 /**
 * main - prints the text given
-* Return should answer if 0 if exited properly
+* Return should answer 0 if exited properly
  */
 int main(void)
 {

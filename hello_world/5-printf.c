@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main prints the txt
+/** 
+ * main prints the txt
 * Return gives 0 when everything is aok
 */
 

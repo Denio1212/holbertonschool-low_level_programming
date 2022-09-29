@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main --- prints the phase we are writing
- * return needs to be zero to exit properly,,, id not zero there are errors
+ * main - prints the text given
+ * Return should answer wit 0 if exited properly or any other number if there are mistakes
  */
 int main(void)
 {

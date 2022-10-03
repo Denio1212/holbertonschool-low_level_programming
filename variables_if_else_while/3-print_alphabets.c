@@ -14,5 +14,7 @@ int main(void)
 	for (cc = 'A'; cc <= 'Z'; cc++)
 		putchar(cc);
 
+	putchar('\n');
+
 	return (0);
 }

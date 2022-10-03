@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * main will print and execute command
- * return (0) is a success!
- * */
 
+/**
+ * main - assigns a random number to n everytime
+ * it executes it
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {

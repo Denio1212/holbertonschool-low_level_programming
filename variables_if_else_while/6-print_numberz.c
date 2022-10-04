@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	int nr; 
+	int nr;
 
 	for (nr = 48; nr < 58; nr++)
-	{	
+	{
 		putchar(nr);
 
 	}

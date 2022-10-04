@@ -9,14 +9,13 @@
 
 int main(void)
 {
-	int b;
+	int nr; 
 
-	for (b = 0; b < 10; b++)
-	{
-		putchar(b);
+	for (nr = 48; nr < 58; nr++)
+	{	
+		putchar(nr);
 
 	}
-
 	putchar('\n');
 
 	return (0);

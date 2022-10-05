@@ -1,6 +1,5 @@
 CC = gcc
 SRC = main.c school.c
-OBJ = main.o
 OBJ = $(subst .c,.o,$(SRC))
 NAME = school
 

@@ -4,5 +4,5 @@ cc := gcc
 %c := .c
 
 school:
-	cc main.c school%c -o school
+	$(cc) main.c school$(%c) -o school
 

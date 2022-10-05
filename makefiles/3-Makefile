@@ -4,7 +4,7 @@ OBJ = $(subst .c,.o,$(SRC))
 NAME = school
 RM = rm plf
 
-all:
+all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 %.o: %.c

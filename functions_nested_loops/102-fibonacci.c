@@ -12,7 +12,7 @@ int main(void)
 	j = 1;
 	l = 2;
 
-	for (i = 1; i <51; ++i)
+	for (i = 1; i < 51; ++i)
 	{
 		if (j == 20365011074)
 		{

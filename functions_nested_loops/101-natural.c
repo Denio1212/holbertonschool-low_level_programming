@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - computes the sum of all numbers
  * that are multiples of 3 and 5
  * Return: 0 success
@@ -16,7 +16,7 @@ int main(void)
 	sum = 0;
 
 	for (i = 0; i < 1024; i++)
-	{	
+	{
 		if ((i % 3) == 0)
 			{
 			s3 = s3 + i;

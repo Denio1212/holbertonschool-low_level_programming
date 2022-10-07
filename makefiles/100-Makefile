@@ -1,9 +1,9 @@
 CC = gcc
-SRC = main.c holberton.c
+SRC = main.c school.c
 OBJ = $(subst .c,.o,$(SRC))
 NAME = school
 CFLAGS = -Wall -Werror -Wextra -pedantic  
-JAMES = all clean oclean fclean re
+JAMES : all clean oclean fclean re
 
 all:
 	$(CC) $(OBJ) -o $(NAME)

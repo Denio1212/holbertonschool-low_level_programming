@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * finds and prints the sum of even valued
+ * main - finds and prints the sum of even valued
  * numbers followed by new line
  * Return: 0 Success
  */

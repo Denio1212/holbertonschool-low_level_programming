@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * _strcpy - copies the given string in a new dest
+ * @dest: the sestination of the copied string
+ * @src: the input string
+ * Return: prints the value of dest
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int size, i;

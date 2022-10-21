@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * full_sqr_root - finds the natural square root of a number
+ * actual_sqrt_recursion - finds the natural square root of a number
  * @i: increments to find it
  * Return: the root
  * @n: the number rooted

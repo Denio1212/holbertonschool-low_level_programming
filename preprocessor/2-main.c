@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Prints out the previous name 
- * Return: O 
+ * main - Prints out the previous name
+ * Return: O
  */
 int main(void)
 {

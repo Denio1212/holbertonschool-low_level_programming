@@ -9,8 +9,7 @@ int main(int argc, char *argv[])
 {
 	int length;
 
-	if (argc > 1)
-	for (length = 1; length < argc; length++)
+	for (length = 0; length < argc; length++)
 	{
 		printf("%s\n", argv[length]);
 	}

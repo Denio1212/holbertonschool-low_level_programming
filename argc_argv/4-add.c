@@ -11,10 +11,10 @@ int main(int argc, char *argv[])
 	int i, sum = 0;
 	char *s;
 
-	if (argc == 1)
+	if (argc < 1)
 		printf("0\n");
 	else
-		for (i = 0; i < argc; i++)
+		for (i = 1; i < argc; ++i)
 		{
 			sum += strtol(argv[i], &s, 0);
 

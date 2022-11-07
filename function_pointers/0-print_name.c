@@ -11,3 +11,8 @@ void print_name(char *name, void (*f)(char *))
 		f(name);
 	}
 }
+/**
+ * what this function does is simply print an imputted name
+ * the name is given as char * and f is a function pointer of print_name * we firstly make sure that name and the value in f are the same
+ * afterwards we simply run the print name function on the given name
+*/

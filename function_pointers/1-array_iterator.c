@@ -15,3 +15,12 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 			action(*(array + i++));
 	}
 }
+/**
+ * This one is quite simple, we have an array, its size and a
+ * pointer to an array named action.
+ * we need iteration to scroll through the array and we make sure that
+ * all variables are existing, then a while loop where i stays under
+ * size iterates the array, where then we run the action pointer with
+ * array as the base and then we add all number positions to print all
+ * numbers
+ */

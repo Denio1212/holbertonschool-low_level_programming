@@ -73,7 +73,7 @@ void print_all(const char * const format, ...)
 				form[j].print(ap);
 				seperator = ", ";
 			}
-	
+
 			j++;
 		}
 		j = 0;

@@ -66,14 +66,14 @@ void print_all(const char * const format, ...)
 	while (format && format[i])
 	{
 		while (form[j].str)
-		{	
+		{
 			if (*form[j].str == format[i])
 			{
 				printf("%s", seperator);
 				form[j].print(ap);
 				seperator = ", ";
-			}	
-			
+			}
+	
 			j++;
 		}
 		j = 0;

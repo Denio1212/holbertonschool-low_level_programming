@@ -1,10 +1,13 @@
 #include "lists.h"
 
-
+/**
+ * pop_listint - frees the first node of a list
+ * Return: Data
+ */
 int pop_listint(listint_t **head)
 {
 	listint_t *replace;
-	int r = 0;
+	int n = 0;
 
 	if (*head)
 	{
@@ -13,6 +16,6 @@ int pop_listint(listint_t **head)
 		free(*head);
 		*head = replace;
 	}
-	return (r);
+	return (n);
 }
 

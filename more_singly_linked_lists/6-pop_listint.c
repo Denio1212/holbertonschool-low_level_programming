@@ -2,6 +2,7 @@
 
 /**
  * pop_listint - frees the first node of a list
+ * @head: pointer to the first node
  * Return: Data
  */
 int pop_listint(listint_t **head)

@@ -6,7 +6,7 @@ int pop_listint(listint_t **head)
 	listint_t *replace;
 	int r = 0;
 
-	while (*head)
+	if (*head)
 	{
 		r = (*head)->n;
 		replace = (*head)->next;

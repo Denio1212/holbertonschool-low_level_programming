@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	}
 	if (n < 0)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file NAME_OF_THE_FILE\n");
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	if (close(fd1))

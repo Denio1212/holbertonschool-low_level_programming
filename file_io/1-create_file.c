@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strlen - finds length of text_content
- * @s = string
+ * @s: string
  * Return: length
  */
 int _strlen(char *s)
@@ -23,6 +23,7 @@ int _strlen(char *s)
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
+
 	if (!filename)
 		return (-1);
 	fd = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0600);

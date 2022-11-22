@@ -15,7 +15,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	buff = malloc(sizeof(char) * letters + 1);
 
-	fd = open (filename, O_RDONLY);
+	fd = open(filename, O_RDONLY);
 	size = read(fd, buff, letters);
 	if (fd == -1)
 		return (0);
@@ -31,7 +31,4 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(fd);
 	return (size);
 }
-
-	
-	
 

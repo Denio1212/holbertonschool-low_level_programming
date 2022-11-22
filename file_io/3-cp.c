@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 
 	if (close(fd2))
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd2), exit(100);
-	
+
 	return (0);
 }
 

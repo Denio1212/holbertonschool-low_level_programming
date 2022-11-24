@@ -1,8 +1,9 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - finds the n-th node in a list
+ * get_dnodeint_at_index - finds the n-th node in a list
  * @index: the given index
+ * @head: pointer to start of list
  * Return: NULL if no found node
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)

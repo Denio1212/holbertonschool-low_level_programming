@@ -4,7 +4,7 @@
  * @h: ptr to first node
  * Return: number of nodes
  */
-size_t dlist_size(const dlistint_t *h)
+unsigned int dlist_size(const dlistint_t *h)
 {
 	const dlistint_t *current;
 	size_t n = 0;
@@ -33,7 +33,7 @@ size_t dlist_size(const dlistint_t *h)
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *current, *new;
-	unsigned int i = 0;
+	unsigned int i = 1;
 
 	current = *h;
 	if ((!current && idx) || idx > dlist_size(*h))

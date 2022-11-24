@@ -36,7 +36,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	unsigned int i = 0;
 
 	current = *h;
-	if (!current && idx || idx > dlist_size(*h))
+	if ((!current && idx) || idx > dlist_size(*h))
 		return (NULL);
 	while (i < idx)
 	{

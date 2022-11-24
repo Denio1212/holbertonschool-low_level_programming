@@ -4,7 +4,7 @@
  * @h: ptr to first node
  * Return: number of nodes
  */
-unsigned int dlist_size(const dlistint_t *h)
+size_t dlist_size(const dlistint_t *h)
 {
 	const dlistint_t *current;
 	size_t n = 0;
